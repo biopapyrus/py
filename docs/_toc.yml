@@ -1,0 +1,66 @@
+format: jb-book
+root: index
+options:
+    numbered: True
+chapters: 
+- file: cs/index
+  sections:
+    - file: cs/computer
+    - file: cs/ui
+    - file: cs/programming
+    - file: cs/file
+    - file: cs/devenv
+- file: datatype/index
+  sections:
+    - file: datatype/helloworld
+    - file: datatype/variable
+    - file: datatype/calc
+    - file: datatype/list
+    - file: datatype/dict
+    - file: datatype/method
+- file: syntax/index
+  sections:
+    - file: syntax/if
+    - file: syntax/loop
+    - file: syntax/func
+    - file: syntax/lib
+- file: pandas/index
+  sections:
+    - file: pandas/data
+    - file: pandas/datacleaning
+    - file: pandas/dataframe
+    - file: pandas/groupby
+- file: numpy/index
+  sections:
+    - file: numpy/array
+    - file: numpy/calc
+    - file: numpy/operation
+    - file: numpy/random
+    - file: numpy/viewcopy
+- file: visualization/index
+  sections:
+    - file: visualization/matplotlib
+    - file: visualization/chart
+    - file: visualization/subplot
+    - file: visualization/seaborn
+    - file: visualization/plotly
+
+- file: statistics/index
+  sections:
+    - file: statistics/ttest
+    - file: statistics/anova
+    - file: statistics/goodnessfit
+    - file: statistics/lm
+    - file: statistics/glm
+    - file: statistics/sparse
+- file: textdata/index
+  sections:
+    - file: textdata/string
+    - file: textdata/file
+    - file: textdata/regex
+- file: appendix/index
+  sections:
+    - file: appendix/report/utsp1_2025
+- file: genindex
+
+

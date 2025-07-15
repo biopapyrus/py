@@ -1,0 +1,9 @@
+p {
+    text-align: justify;
+}
+
+.cell_output > img {
+    display: block;
+    margin: auto;
+    max-width: 72%;
+}
