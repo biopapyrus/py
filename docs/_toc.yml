@@ -3,12 +3,19 @@ root: index
 options:
     numbered: True
 chapters: 
+- file: scratch/index
+  sections:
+    - file: scratch/ui
+    - file: scratch/basic
+    - file: scratch/calc
+    - file: scratch/bio
 - file: cs/index
   sections:
     - file: cs/computer
+    - file: cs/data
+    - file: cs/file
     - file: cs/ui
     - file: cs/programming
-    - file: cs/file
     - file: cs/devenv
 - file: datatype/index
   sections:
